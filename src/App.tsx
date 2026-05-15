@@ -1,12 +1,12 @@
 import "./App.css";
 
-import Parent from "./applications/message-from-child";
+import Timer from "./applications/timer";
 
 function App() {
   return (
     <div className="app">
       <h1 className="main-header">React Machine Coding</h1>
-      <Parent />
+      <Timer />
     </div>
   );
 }
