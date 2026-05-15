@@ -1,12 +1,12 @@
 import "./App.css";
 
-import Counter from "./applications/counter";
+import Parent from "./applications/message-from-child";
 
 function App() {
   return (
     <div className="app">
       <h1 className="main-header">React Machine Coding</h1>
-      <Counter />
+      <Parent />
     </div>
   );
 }

@@ -12,6 +12,7 @@ const Child = ({ messageFromChild }: ChildProps) => {
 
   const handleMessage = () => {
     messageFromChild(childData);
+    setChildData("");
   };
 
   return (
