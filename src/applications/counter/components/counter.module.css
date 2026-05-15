@@ -1,0 +1,50 @@
+/* counter.module.css */
+
+.container {
+  width: 320px;
+  margin: 80px auto;
+  padding: 32px 24px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow:
+    0 4px 12px rgba(0, 0, 0, 0.08),
+    0 2px 4px rgba(0, 0, 0, 0.04);
+  text-align: center;
+}
+
+.container h4 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #222222;
+  margin-bottom: 24px;
+}
+
+.button_container {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.button_container button {
+  width: 56px;
+  height: 56px;
+  border: none;
+  border-radius: 12px;
+  background-color: #111827;
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.button_container button:hover {
+  background-color: #374151;
+  transform: translateY(-2px);
+}
+
+.button_container button:active {
+  transform: scale(0.96);
+}
