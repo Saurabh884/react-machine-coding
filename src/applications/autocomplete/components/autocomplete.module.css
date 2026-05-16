@@ -1,0 +1,28 @@
+.main_container {
+  width: 500px;
+  margin: auto;
+  padding: 10px;
+}
+.main_container h4 {
+  text-align: center;
+}
+.input_box {
+  width: 500px;
+  padding: 10px;
+}
+.items_container {
+  padding: 5px;
+  width: 500px;
+  max-height: 200px;
+  text-align: left;
+  border: 1px solid gray;
+  overflow-y: auto;
+  margin: 5px auto;
+}
+.single_item {
+  display: block;
+  cursor: pointer;
+}
+.single_item:hover {
+  background-color: beige;
+}
