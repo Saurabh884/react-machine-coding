@@ -10,6 +10,15 @@ const Accordion = () => {
     setIsExpanded((prev) => (prev == itemId ? null : itemId));
   };
 
+  // another version
+  //   const handleClick = (itemId) => {
+  //     setIsExpanded((prev) =>
+  //       prev.includes(itemId)
+  //         ? prev.filter((id) => id !== itemId)
+  //         : [...prev, itemId]
+  //     );
+  //   };
+
   return (
     <div className={styles.container}>
       {accordianData.length > 0 &&
