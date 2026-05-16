@@ -1,0 +1,18 @@
+.main_container {
+  width: 700px;
+  margin: 60px auto;
+}
+
+.main_container h3 {
+  text-align: center;
+}
+.item_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.single_item {
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 20px;
+}

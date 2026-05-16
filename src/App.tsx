@@ -1,11 +1,11 @@
 import "./App.css";
-import InfiniteScroll from "./applications/infinite-scroll";
+import CustomFetch from "./applications/custom-fetch";
 
 function App() {
   return (
     <div className="app">
       <h1 className="main-header">React Machine Coding</h1>
-      <InfiniteScroll />
+      <CustomFetch />
     </div>
   );
 }
