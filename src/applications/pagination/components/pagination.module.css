@@ -1,0 +1,27 @@
+h4 {
+  text-align: center;
+}
+
+.items_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  text-align: center;
+}
+.image {
+  width: 200px;
+  height: 200px;
+}
+.button_container {
+  text-align: center;
+}
+.button_container button {
+  padding: 10px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.isActive {
+  background-color: green;
+  color: white;
+}
