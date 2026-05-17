@@ -1,13 +1,12 @@
 import "./App.css";
-
-import Pagination from "./applications/pagination";
+import ModalApp from "./applications/modal/components/ModalApp";
 
 function App() {
   return (
     <div className="app">
       <h1 className="main-header">React Machine Coding</h1>
 
-      <Pagination />
+      <ModalApp />
     </div>
   );
 }
