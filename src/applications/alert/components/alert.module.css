@@ -1,0 +1,43 @@
+.app_container {
+  text-align: center;
+  width: 500px;
+  margin: auto;
+}
+.button_container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 10px 0;
+}
+.button_container button {
+  cursor: pointer;
+  width: 150px;
+  margin: 0 10px;
+}
+.alert_container {
+  width: 200px;
+}
+.alert_item {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+
+  margin: 5px 5px;
+  padding: 8px;
+  border-radius: 6px;
+}
+.alert_item button {
+  cursor: pointer;
+  padding: 5px;
+}
+.success {
+  background-color: green;
+}
+.error {
+  background-color: crimson;
+}
+.info {
+  background-color: cyan;
+}
