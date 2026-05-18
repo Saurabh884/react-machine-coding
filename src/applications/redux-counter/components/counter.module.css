@@ -1,0 +1,15 @@
+.app_container {
+  text-align: center;
+  width: 600px;
+  margin: auto;
+  padding: 10px;
+}
+.button_container {
+  display: flex;
+  justify-content: space-around;
+}
+.button_container button {
+  width: 100px;
+  margin: 10px auto;
+  cursor: pointer;
+}
