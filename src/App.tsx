@@ -1,12 +1,12 @@
 import "./App.css";
 
-import UseCallback from "./applications/usecallback-usage";
+import UseMemo from "./applications/usememo";
 
 function App() {
   return (
     <div className="app">
       <h1 className="main-header">React Machine Coding</h1>
-      <UseCallback />
+      <UseMemo />
     </div>
   );
 }
