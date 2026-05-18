@@ -1,11 +1,12 @@
 import "./App.css";
-import ReactMemo from "./applications/react-memo";
+
+import UseCallback from "./applications/usecallback-usage";
 
 function App() {
   return (
     <div className="app">
       <h1 className="main-header">React Machine Coding</h1>
-      <ReactMemo />
+      <UseCallback />
     </div>
   );
 }
