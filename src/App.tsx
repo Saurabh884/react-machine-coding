@@ -1,12 +1,11 @@
 import "./App.css";
-
-import UseRef from "./applications/useref";
+import ReactMemo from "./applications/react-memo";
 
 function App() {
   return (
     <div className="app">
       <h1 className="main-header">React Machine Coding</h1>
-      <UseRef />
+      <ReactMemo />
     </div>
   );
 }
